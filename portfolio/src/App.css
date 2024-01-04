@@ -1,0 +1,12 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+.back{
+  background-color: #141416;
+  color: #F0F8FF;
+}
+.hero{
+  display: flex;
+}

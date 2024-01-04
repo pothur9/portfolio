@@ -1,0 +1,25 @@
+.pro{
+    opacity: 0.2;
+    margin-top: 130px;
+    z-index: 0;
+}.main-text1{
+    margin-top: -420px;
+}.sp{
+    font-size: large;
+    margin: 20px;
+}.lin{
+    margin: 20px;
+}.tech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+@media (max-width: 600px) {
+    .pro{
+        width: 100%;
+    }.tech{
+        display: block;
+    }
+}
