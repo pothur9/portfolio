@@ -20,7 +20,7 @@ function Hero() {
       <div className="image-container">
        <img src="bg.png" alt="Web Developer" className="img"/>
         <img src="main-rb.png" alt="Web Developer" className="im"/>
-       
+       <img  src="black1.png" className="black"/>
       </div>
      
     </div>
