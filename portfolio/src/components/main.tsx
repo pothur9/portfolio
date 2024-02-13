@@ -3,6 +3,9 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
+import pink from "/icon1.png"
+import white from "/dark_cube2.png"
+import purple from "/purple_romb2.png"
 
 function Main() {
   return (
@@ -26,6 +29,7 @@ function Main() {
         <br />
         <br />
         <br />
+        <img src={purple} className="purple"/>
         <h1 style={{ fontSize: "xxx-large" }}>Skills & Experience</h1>
         <p className="sp">
           The main area of expertise is front end development.
@@ -66,7 +70,38 @@ function Main() {
           />
 
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+            style={{ width: "60px", margin: "20px" }}
+          />
+        </div>
+        <div className="tech" style={{ marginTop: "-20px" }}>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+            style={{ width: "60px", margin: "20px" }}
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg"
+            style={{ width: "60px", margin: "20px" }}
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original-wordmark.svg"
+            style={{ width: "60px", margin: "20px" }}
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
+            style={{ width: "60px", margin: "20px" }}
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg"
+            style={{ width: "60px", margin: "20px" }}
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
             style={{ width: "60px", margin: "20px" }}
           />
         </div>
@@ -101,6 +136,8 @@ function Main() {
             style={{ width: "60px", margin: "20px" }}
           />
         </div>
+        <img src={white} className="white"/>
+
         <h1 className="work">My work</h1>
         <p className="work-text">
           Deployed scalable travel, event and telemedicine web and hybrid mobile
@@ -149,7 +186,9 @@ function Main() {
             </CardContent>
           </Card>
         </div>
+        
       </div>
+      <img src={pink} className="pink"/>
     </div>
   );
 }
