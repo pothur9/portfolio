@@ -16,7 +16,8 @@
 @media (max-width: 600px) {
     .icons{
         display: block !important;
-        width: 20px;
+        width: 15x;
+        margin: 10px;
     }.cube{
         display: none;
     }

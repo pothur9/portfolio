@@ -6,15 +6,17 @@ import Typography from "@mui/material/Typography";
 import pink from "/icon1.png"
 import white from "/dark_cube2.png"
 import purple from "/purple_romb2.png"
+import Button from '@mui/material/Button';
+
 
 function Main() {
   return (
     <div className="main-container">
       <img src="pro.png" className="pro" />
-      <div className="main-text1" style={{ textAlign: "center" }}>
+      <div className="main-text1" style={{ textAlign: "center" }} id="about">
         <h1 className="main-tx">Hi,I'm Prasanna Kumar</h1>
         <br />
-        <p className="main-p">Web Developer / MERN Stack</p>
+        <p className="main-p">Full stack developer</p>
         <br />
         <br />
         <br />
@@ -148,7 +150,7 @@ function Main() {
             <CardMedia
               className="cimg1"
               image="mypickup.png"
-              title="green iguana"
+              title="mypickup"
             />
             <CardContent className="card-con">
               <Typography gutterBottom variant="h5" component="div">
@@ -180,14 +182,15 @@ function Main() {
             />
             <CardContent className="card-con">
               <Typography gutterBottom variant="h5" component="div">
-                Aiempowerr ( business website )
+                Aiempowerr (business website)
               </Typography>
               <Typography variant="body2"></Typography>
-            </CardContent>
-          </Card>
+            </CardContent>  
+         </Card>
         </div>
-        
+        <Button variant="contained" style={{backgroundColor:"#D63FD9"}}>View more</Button>
       </div>
+     
       <img src={pink} className="pink"/>
     </div>
   );
