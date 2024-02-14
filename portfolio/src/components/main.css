@@ -49,6 +49,7 @@
     float:right;
     margin-top: -180px;
 }
+ 
 @media (max-width: 600px) {
     .pro{
         width: 100%;
@@ -59,10 +60,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width:  100%;
+      
     }.proj{
-        width: 100%;
+        width: 95%;
     }.black{
         display: none;
+    }.purple{
+        display: none;
+    }.cimg1{
+        object-fit: contain;
     }
 }
 

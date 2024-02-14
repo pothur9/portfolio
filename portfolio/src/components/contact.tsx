@@ -1,21 +1,18 @@
 import { Typography } from "@mui/material";
-import whatsappImg from "/whatsapp.png";
 import linkedinImg from "/linkedin.png";
 import instagramImg from "/instagram.png";
 import gmailImg from "/gmail.png";
 import "./contact.css";
-import cube from "/white_cube1.png"
-import bcube from "/dark_romb.png"
+import cube from "/white_cube1.png";
+import bcube from "/dark_romb.png";
 
 export default function Contact() {
   return (
-    <div style={{marginTop:"60px"}}>
-       
+    <div style={{ marginTop: "60px" }} id="contact">
       <Typography variant="h2" className="con">
-        
         Contact
       </Typography>
-      
+
       <br />
       <br />
       <Typography variant="h6" textAlign={"center"}>
@@ -33,13 +30,19 @@ export default function Contact() {
           alignItems: "center",
         }}
       >
-        <img src={whatsappImg}  className="icon"/>
-        <img src={linkedinImg}  className="icon"/>
-        <img src={instagramImg}  className="icon"/>
-        <img src={gmailImg}  className="icon"/>
+       
+        <a href="https://www.linkedin.com/in/prasanna-kumar-830b3920a/">
+          <img src={linkedinImg} className="icon" />
+        </a>
+        <a href="https://www.instagram.com/prasanna_kumar_909?igsh=MWVwOHByNnMyZmg0eQ%3D%3D&utm_source=qr">
+          <img src={instagramImg} className="icon" />
+        </a>
+        <a href="https://mail.google.com/mail/u/0/#inbox">
+          <img src={gmailImg} className="icon" />
+        </a>
       </div>
-      <img src={cube} alt="" className="cube"/>
-      <img src={bcube} className="bcube"/>
+      <img src={cube} alt="" className="cube" />
+      <img src={bcube} className="bcube" />
     </div>
   );
 }

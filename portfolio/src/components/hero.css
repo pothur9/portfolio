@@ -11,18 +11,18 @@
   }
   .im{
     width: 58%;
-    margin-top: -38%;
+    margin-top: -30%;
     margin-left: 250px;
     z-index: 1;
   }.hero-tx{
     font-size: 60px;
-    margin-top: 200px;
+    margin-top: 290px;
     margin-left: 120px;
   }.hero-p{
     margin-top: 20px;
     margin-left: 120px;
   }.about{
-    margin-left: 120px;
+    margin-left: 21%;
     margin-top: 20px;
     font-size: 20px;
     color: #9726AA;
@@ -56,6 +56,7 @@
     .im{
         width: 100%;
         margin: 0px;
+        margin-top: 25%;
     }
     .hero-tx,.hero-p,.about{
         margin-top: 20px;
